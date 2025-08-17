@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Car Brands World Map</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div id="small-screen-warning">
+    ⚠️ Your screen is too small to display this map.<br>
+    Please use a larger device or rotate your screen.
+  </div>
+  <div id="search-box">
+    <input type="text" id="search-input" placeholder="Search for a car brand 🚗..." />
+  </div>
+  <div id="map"></div>
+
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="carinfo.js"></script>
+  <footer>🚗Car Brands World Map🗺</footer>
+</body>
+
+</html>
